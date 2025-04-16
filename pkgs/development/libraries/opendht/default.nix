@@ -20,15 +20,15 @@
   enablePushNotifications ? false,
 }:
 
-stdenv.mkDerivation {
+stdenv.mkDerivation rec {
   pname = "opendht";
-  version = "3.2.0-unstable-2025-01-05";
+  version = "3.3.1rc2-unstable-2025-04-15";
 
   src = fetchFromGitHub {
     owner = "savoirfairelinux";
     repo = "opendht";
-    rev = "5237f0a3b3eb8965f294de706ad73596569ae1dd";
-    hash = "sha256-qErVKyZQR/asJ8qr0sRDaXZ8jUV7RaSLnJka5baWa7Q=";
+    rev = "2c26030108ede63e74efcc2d9c23ad47fdc8372e";
+    hash = "sha256-sjcjKj5veWIsO8JR6v17YyHZNB0K60ZAVqNBpin6HfI=";
   };
 
   nativeBuildInputs = [

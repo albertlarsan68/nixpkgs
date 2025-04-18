@@ -28,7 +28,7 @@ stdenv.mkDerivation rec {
     owner = "savoirfairelinux";
     repo = "opendht";
     rev = "2c26030108ede63e74efcc2d9c23ad47fdc8372e";
-    hash = "sha256-sjcjKj5veWIsO8JR6v17YyHZNB0K60ZAVqNBpin6HfI=";
+    hash = "sha256-xATRoZg18ZIKqT3TUDdcJXl5jFHz8Xo7NY7K1c39uRg=";
   };
 
   nativeBuildInputs = [
